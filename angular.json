@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-search-bar": {
+    "ngx-library": {
       "projectType": "library",
-      "root": "projects/ngx-search-bar",
-      "sourceRoot": "projects/ngx-search-bar/src",
+      "root": "projects/ngx-library",
+      "sourceRoot": "projects/ngx-library/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-search-bar/ng-package.json"
+            "project": "projects/ngx-library/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-search-bar/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-library/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-search-bar/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-library/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/ngx-search-bar/tsconfig.spec.json",
+            "tsConfig": "projects/ngx-library/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

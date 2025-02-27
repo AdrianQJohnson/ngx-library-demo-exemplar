@@ -1,15 +1,15 @@
 import { Component, inject } from '@angular/core';
 import { MatCard, MatCardContent } from '@angular/material/card';
 import { AppService } from '../services/app.service';
-import { NgxSearchBarComponent } from 'ngx-search-bar';
+import { NgxLibraryComponent } from 'ngx-library';
 
 @Component({
   selector: 'app-document',
-  imports: [MatCard, MatCardContent, NgxSearchBarComponent],
+  imports: [MatCard, MatCardContent, NgxLibraryComponent],
   template: `
     <mat-card appearance="outlined">
       <mat-card-content>
-        <ngx-search-bar></ngx-search-bar>
+        <ngx-library></ngx-library>
       </mat-card-content>
     </mat-card>
   `,

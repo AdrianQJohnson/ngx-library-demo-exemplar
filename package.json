@@ -1,11 +1,11 @@
 {
-  "name": "ngx-search-bar",
+  "name": "ngx-library",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build ngx-search-bar --watch --configuration development",
+    "watch": "ng build ngx-library --watch --configuration development",
     "test": "ng test"
   },
   "private": true,

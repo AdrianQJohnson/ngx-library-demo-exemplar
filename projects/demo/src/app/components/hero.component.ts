@@ -10,7 +10,7 @@ import { MatTooltip } from '@angular/material/tooltip';
     <header class="header-background">
       <div class="header-section">
         <div class="header-headline">
-          <h1>Ngx SearchBar</h1>
+          <h1>Ngx Library Demo Exemplar</h1>
           <h2>A Custom Themeable Angular Material 3 Component</h2>
         </div>
         <div class="header-start">

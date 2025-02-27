@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-search-bar',
+  selector: 'ngx-library',
   imports: [],
   template: `
     <p>
-      ngx-search-bar works!
+      ngx-library works!
     </p>
   `,
   styles: ``
 })
-export class NgxSearchBarComponent {
+export class NgxLibraryComponent {
 
 }
